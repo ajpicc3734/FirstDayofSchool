@@ -162,6 +162,20 @@
     line-height:1.5;
   }
 
+  .problem-solving-background {
+    float: none;
+    width:0 auto;
+    padding: 40px;
+    padding-left:70px;
+    padding-right: 70px;
+    height: 800px;
+    margin:30px;
+    margin-right:30px;
+    margin-bottom: 70px;
+    background-color: #FEDE00;
+    color: #023e8a;
+    line-height:1.5;
+  }
 
   .values-li {
     text-align: center;
@@ -174,74 +188,14 @@
     font-size: 24%;
   }
 
-  /* About section styling */
-  .about {
-    display: flex;
-    max-width: 830px;
-    margin: 0 auto;
-  }
-  .about div {
-    padding: 40px;
-  }
-  .about-me-img img {
-    border-radius: 35%;
-  }
-  .about-me-text h2 {
-    text-align: left;
-    margin: 0;
-  }
-  .about-me-text p {
-    font-size: 22px;
-  }
-  p.hi {
-    font-size: 30px;
-    font-weight: bold;
-    color: #92b5bb;
-  }
-  /* Work Section styling  */
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1200px;
-  }
-  .card {
-    position: relative;
-    text-align: center;
-    display: inline-block;
-    padding: 5px;
-  }
-  .card img {
-    width: 475px;
-    height: 475px;
-    display: block;
-  }
-  #run-buddy {
-    width: 960px;
-    height: 300px;
-  }
-  .img-txt {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-  }
-  /* Contact section styling */
-  .contact-img {
-    height: 64px;
-    width: 64px;
-  }
-  
-  ul.contact-container {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0;
-  }
-  ul.contact-container li {
-    margin: 0 auto;
+  .problem-solving {
+    background: url('../assets/problem-solving-framework.png');
+    background-size: contain;
+    background-repeat: no-repeat;    
+    background-position: center;
   }
 
-
+ 
   /* Media Queries */
   @media screen and (max-width: 980px) {
     header {
